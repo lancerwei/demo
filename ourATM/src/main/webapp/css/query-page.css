@@ -1,0 +1,92 @@
+*{
+	padding:0;
+	margin:0;
+}
+body {
+	font-family:"微软雅黑","文泉驿正黑","黑体";
+}
+.query-page {
+	width:860px;
+	height:560px;
+	border:1px solid red;
+	margin:0 auto;
+	position:relative;
+	background-image:url(../image/query.jpg);
+}
+input {
+	width:130px;
+	height:50px;
+	font-size:25px;
+}
+input:hover {
+	font-size:30px;
+}
+.reture{
+	position:absolute;
+	bottom:40px;
+	right:0;
+}
+.exit{
+	position:absolute;
+	bottom:40px;
+	left:0;
+}
+
+.round{
+	position:absolute;
+	bottom:130px;
+	right:0;
+}
+.credit{
+	position:absolute;
+	bottom:220px;
+	right:0;
+}
+.query-page .p1 {
+	position:absolute;
+	left:250px;
+	bottom:20px;
+}
+
+.second {
+	width:400px;
+	height:250px;
+	border:1px solid green;
+	margin:60px auto;
+	position:absolute;
+	left:50px;
+}
+.third{
+	width:400px;
+	height:25px;
+	margin:5px auto;
+	background-color:gray;
+	position:relative;
+	
+}
+.third p{
+	position:absolute;
+	left:120px;
+	font-size:22px;
+}
+table{
+	border:1px solid red;
+	font-size:20px;
+	border-collapse:collapse;
+	text-align:right;
+	margin-top:35px;
+	margin-left:30px;
+}
+td{
+	border:1px solid red;
+}
+.t1 {
+	 width:220px;
+	 height:25px"
+}
+.t2 {
+	width:100px;
+	height:25px;
+}
+
+

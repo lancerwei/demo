@@ -1,0 +1,69 @@
+.form{
+	border:1px solid red;
+	widht:800px;
+	height:600px;
+	position:relative;
+	margin:20px auto;
+}
+.logo{
+	position:absolute;
+	top:20px;
+	margin-top:10px;
+	left:10px;
+}
+.upay{
+	position:absolute;
+	top:20px;
+	right:10px;
+}
+.pic{
+  border:1px solid red;
+  position:absolute;
+  top:170px;
+  left:50px;
+}
+.exit{
+  width:200px;
+  height:50px;
+  position:absolute;
+  left:0px;
+  bottom:40px;
+  font-size:25px;
+  font-family:"微软雅黑","文泉驿正黑","黑体";
+  background-color:#949494;
+  color:#ffffff;
+}
+.enter{
+  width:200px;
+  height:50px;
+  position:absolute;
+  right:0px;
+  bottom:40px;
+  font-size:25px;
+  font-family:"微软雅黑","文泉驿正黑","黑体";
+  background-color:#949494;
+  color:green;
+}
+.correct{
+  width:200px;
+  height:50px;
+  position:absolute;
+  right:0px;
+  bottom:130px;
+  font-size:25px;
+  font-family:"微软雅黑","文泉驿正黑","黑体";
+  background-color:#949494;
+  color:red;
+}
+input:hover {
+	font-size:30px;
+}
+.text{
+	border:1px solid red;
+	widht:400px;
+	height:200px;
+	position:absolute;
+	top:200px;
+	right:30px;
+	font-size:30px;
+}

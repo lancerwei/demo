@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>欢迎使用工商银行自助存取款机！</title>
+<link rel="stylesheet" href="../css/index-page.css"/>
+<script>
+	//页面加载后
+	window.onload = function(){
+		start();
+	}
+	var id;
+	//轮播次数
+	var n = 0;
+	function start() {
+		//启动定时器,每2秒轮播图片
+		id = setInterval(function(){
+			n++;
+			//获取所有图片
+			var imgs = 
+				document.getElementsByName("ad");
+			//将它们都隐藏
+			for(var i=0;i<imgs.length;i++) {
+				imgs[i].className = "hide";
+			}
+			//将下一个图片显示
+			var index = n%imgs.length;
+			imgs[index].className = "";
+		},2000);		
+	}
+	function stop() {
+		clearInterval(id);
+	}
+</script>
+</head>
+<body>
+   <div class="head">
+      <img class="logo" src = "../image/logo.jpg"/>
+      <img class="upay" src = "../image/UnionPay.jpg"/>
+   </div>
+   <p></p>
+   <div class="center">
+   <div class="adver" onmouseover="stop();"
+		onmouseout="start();">
+		<a href="../image/ad1.htm">
+		<img name="ad" src="../image/ad1.png"></a>
+		<a href="../image/ad2.htm">
+		<img name="ad" src="../image/ad2.png" class="hide"/></a>
+		<a href="../image/ad3.htm">
+		<img name="ad" src="../image/ad3.png" class="hide"/></a>
+   </div>
+   </div>
+   <p></p>
+   <div class="action">
+   <a href="nocard-page.html"><input type="button" value="手机预约取款"/></a>
+   <a href="load-page.html"><input type="button" value="插入银行卡"/></a>
+   </div>
+</body>
+</html>

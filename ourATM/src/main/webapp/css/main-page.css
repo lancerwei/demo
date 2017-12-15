@@ -1,0 +1,64 @@
+*{
+	padding:0;
+	margin:0;
+}
+.main {
+	width:860px;
+	height:560px;
+	border:1px solid red;
+	margin:0 auto;
+	position:relative;
+	background-color:#bbf9e8;
+}
+input {
+	width:130px;
+	height:50px;
+	font-size:25px;
+}
+input:hover {
+	font-size:30px;
+}
+.reture{
+	position:absolute;
+	bottom:40px;
+	right:0;
+}
+.exit{
+	position:absolute;
+	bottom:40px;
+	left:0;
+}
+.query{
+	position:absolute;
+	bottom:130px;
+	right:0;
+}
+.round{
+	position:absolute;
+	bottom:130px;
+	left:0;
+}
+.credit{
+	position:absolute;
+	bottom:220px;
+	right:0;
+}
+.fund{
+	position:absolute;
+	bottom:310px;
+	right:0;
+}
+.second {
+	width:500px;
+	height:480px;
+	border:1px solid red;
+	margin:80px auto;
+	background-image:url(../image/main.jpg);
+}
+
+
+
+
+
+
+

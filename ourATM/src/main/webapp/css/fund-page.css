@@ -1,0 +1,95 @@
+*{
+	padding:0;
+	margin:0;
+}
+body {
+	font-family:"微软雅黑","文泉驿正黑","黑体";
+}
+.query-page {
+	width:860px;
+	height:560px;
+	border:1px solid red;
+	margin:0 auto;
+	position:relative;
+	background-image:url(../image/query.jpg);
+}
+input {
+	width:130px;
+	height:50px;
+	font-size:25px;
+}
+input:hover {
+	font-size:30px;
+}
+.reture{
+	position:absolute;
+	bottom:40px;
+	right:0;
+}
+.exit{
+	position:absolute;
+	bottom:40px;
+	left:0;
+}
+.add{
+	position:absolute;
+	bottom:130px;
+	left:0;
+}
+.round{
+	position:absolute;
+	bottom:130px;
+	right:0;
+}
+.query{
+	position:absolute;
+	bottom:220px;
+	right:0;
+}
+.query-page .p1 {
+	position:absolute;
+	left:250px;
+	bottom:20px;
+}
+
+.second {
+	width:400px;
+	height:250px;
+	border:1px solid green;
+	margin:60px auto;
+	position:absolute;
+	left:50px;
+	background-color:gray;
+}
+.second .third{
+	width:400px;
+	height:30ppx;
+	margin:5px auto;
+	position:relative;
+}
+.third p{
+	position:absolute;
+	left:120px;
+	font-size:22px;
+	color:red;
+}
+table{
+	border:1px solid red;
+	font-size:20px;
+	border-collapse:collapse;
+	text-align:center;
+	margin-top:60px;
+	background-color:pink;
+}
+td{
+	border:1px solid red;
+	width:131px;
+	height:25px;
+}
+.num {
+	width:128px;
+	height:25px;
+}
+
+
+
