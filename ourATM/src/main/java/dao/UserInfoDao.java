@@ -318,4 +318,33 @@ public class UserInfoDao {
 			}
 		}
 	}
+	//增表3
+		public void save3(UserInfo userInfo){
+			Connection conn=null;
+			try {
+				conn=DBUtil.getConnection();
+				String sql="insert into user_trecord "
+						   +"values "
+						   +"(?,?,?,?,?) ";
+				PreparedStatement ps=conn.prepareStatement(sql);
+				ps.setString(1, userInfo.getCard());
+				ps.setString(2, userInfo.getExtype());
+				ps.setDouble(3, userInfo.getExmoney());
+				ps.setDouble(4, userInfo.getBalance());
+				ps.setDate(5, (Date) userInfo.getExtime());
+				ps.executeUpdate();
+			} catch (Exception e) {
+				e.printStackTrace();
+				throw new RuntimeException(e);
+			}finally {
+				if (conn!=null) {
+					try {
+						conn.close();
+					} catch (Exception e) {
+						e.printStackTrace();
+						throw new RuntimeException(e);
+					}
+				}
+			}
+		}
 }
